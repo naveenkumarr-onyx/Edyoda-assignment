@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodApp</title>
+    <style>
+    body{
+        background-color: rgb(154, 107, 255);
+        margin: 0px;
+    }
+    .nav{
+        background-color:cadetblue;
+        padding:14px 16px;
+    }
+    .indexlink:hover{
+        color:black
+    }
+    .navpart{
+        color: white;
+        margin: 10px;
+        font-size: 17px;
+        text-decoration: none;
+    }
+    .indexlink{
+        text-decoration: none;
+        color: white;
+    }
+
+    .foodlist{
+        color: black;
+        padding:2px
+    }
+    .link{
+        text-decoration: none;
+        color: black;
+    }
+    .images{
+        text-align: center;
+    }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <span class="navpart"><a class="indexlink" href="#">Index</a> </span>
+            <span class="navpart"><a class="indexlink" href="#">Food</a></span>
+            <span class="navpart"><a class="indexlink" href="#">About</a></span>
+        </div>     
+    </header>
+    <section>
+        <div>
+            <h2>Top 5 Favorite foods </h2>
+        </div>
+        <div>
+            <ul>
+                <li class="foodlist"><a class="link" href="#chickenfriedrice">Chickenfriedrice</a></li>
+                <li class="foodlist"><a class="link" href="#Chilli-Garlic-Noodles">Chilli-Garlic-Noodles</a></li>
+                <li class="foodlist"><a class="link" href="#muttonbiryani">Muttonbiryani</a></li>
+                <li class="foodlist"><a class="link" href="#wings">wings</a></li>
+                <li class="foodlist"><a class="link" href="#pasta">Pasta</a></li>
+            </ul>
+        </div> 
+    </section>    
+    <footer>
+            <div  class="images" >
+                <img  src="images/chickenfriedrice.jpg" id="chickenfriedrice" alt="chickenfriedrice image" width="400px" height="400px">
+                <p>Chickenfriedrice</p>
+            </div>
+            <div class="images">
+                <img   id="Chilli-Garlic-Noodles" src="images/Chilli-Garlic-Noodles-2-3.jpg" alt="Chilli-Garlic-Noodles image" height="400px" width="400px">
+                <p>Chilli-Garlic-Noodles</p>
+            </div>
+            <div  class="images">
+                <img  id="muttonbiryani" src="images/muttonbiryani.jpg" alt="muttonbiryani images" height="400px" width="400px">
+                <p>Muttonbiryani</p>
+            </div>
+            <div class="images" >
+                <img   id="wings" src="images/wings.jpg" alt="wings images" height="400px" width="400px">
+                <p>wings</p>
+            </div>
+            <div class="images" >
+                <img   id="pasta" src="images/pasta-images.jpg" alt="pasta images"height="400px" width="400px">
+                <p>Pasta</p>
+            </div>
+    </footer>   
+</body>
+</html>
