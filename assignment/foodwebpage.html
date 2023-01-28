@@ -10,22 +10,19 @@
         background-color: rgb(154, 107, 255);
         margin: 0px;
     }
-    .nav{
-        background-color:cadetblue;
+    header{
+        
+        background-color:cyan;
         padding:14px 16px;
     }
     .indexlink:hover{
-        color:black
+        background-color:black;
     }
-    .navpart{
-        color: white;
-        margin: 10px;
-        font-size: 17px;
-        text-decoration: none;
-    }
-    .indexlink{
-        text-decoration: none;
-        color: white;
+    header .indexlink{
+        text-decoration:none;
+        color:white;
+        padding:15px;
+        transition:1s;
     }
 
     .foodlist{
@@ -44,12 +41,12 @@
 </head>
 <body>
     <header>
-        <div class="nav">
-            <span class="navpart"><a class="indexlink" href="#">Index</a> </span>
-            <span class="navpart"><a class="indexlink" href="#">Food</a></span>
-            <span class="navpart"><a class="indexlink" href="#">About</a></span>
-        </div>     
-    </header>
+        <nav>
+            <a class="indexlink" href="#">Index</a>
+            <a class="indexlink" href="#">Food</a>
+            <a class="indexlink" href="#">About</a>
+        </nav>
+ </header>
     <section>
         <div>
             <h2>Top 5 Favorite foods </h2>
